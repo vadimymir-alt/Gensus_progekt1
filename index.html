@@ -6,12 +6,7 @@
     <title>
         Сучасна пекарня      
     </title>
-    <style>
-        h1 {
-            background-color: rgb(202, 226, 43);
     
-        }
-    </style>
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
@@ -21,10 +16,10 @@
                 <img src="./images/logo2.jpg" alt="Логотип сучаса пекарня" />
                 </a>
             <ul>
-          <li><a href="#section1">Наши традиції</a></li>
-            <li><a href="#chefs_section">Шеф-кухарі</a></li>
-            <li><a href="#format_section">Наши формати</a></li>
-        <li><a href="#contact_section">Наши контакти</a></li>   
+          <li><a class="link" href="#section1">Наши традиції</a></li>
+            <li><a class="link" href="#chefs_section">Шеф-кухарі</a></li>
+            <li><a class="link" href="#format_section">Наши формати</a></li>
+        <li><a class="link" href="#contact_section">Наши контакти</a></li>   
 </ul>
         </nav>
         <button class="button" type="button">Замовити дзвінок</button>
@@ -36,28 +31,30 @@
 <section id="section1">   
 
 <ul class="advantages-list">
-    <li>Великий попит на ринку</li>
-    <li>Доступні формати</li>
-    <li>Досвідченна команда</li>
+    <li class="advantages-item">Великий попит на ринку</li>
+    <li class="advantages-item">Доступні формати</li>
+    <li class="advantages-item">Досвідченна команда</li>
 </ul>
 <h2 class="section-title">Новий формат традицій</h2>
-<p>
-    <span>shop bakery</span>
- -це пекарня, яка взяла найкращі традиції</p>
- <p>Ми працюємо як найвідоміші мережі <span>5 хвилин, и замовлення готове!</span></p>
+<p class="traditions-text">
+    <span class="brand uppercase">shop bakery</span>
+ -це пекарня, яка взяла найкращі традиції
+</p>
+ <p>Ми працюємо як найвідоміші мережі <span class="brand">5 хвилин, и замовлення готове!</span></p>
  </section>
 <section id="chefs_section">
-    <h2 class="section-title">Наші найкращі шеф кухарі</h2>
+    <h2 class="section-title">
+        Наші найкращі <span class="accent">шеф кухарі</span></h2>
         <ul>
         <li><article>
-            <h3>Настя</h3>
+ <h3 class="chef-title">Настя</h3>
             <p>Привіт,я Настя!</p>
             <p>Вже 10 років я втілюю в життя цікаві ідеї</p>
             <p>Я випічу для вас найсмачніші вироби!</p>
         </article>
     </li>
         <li><article>
-            <h3>Влад</h3>
+            <h3 class="chef-title">Влад</h3>
             <p>Привіт,я Влад!</p>
             <p> Я кондитер вже 18 років</p>
             <p>shop bakery - це наша любов</p></article></li>
@@ -67,9 +64,30 @@
 </section>
 <section id="format_section">
     <h2 class="section-title">Формати</h2>
-    <article><h3 lang="en">Walrus</h3></article>
-    <article><h3 lang="en">Horseshoe</h3></article>
-    <article><h3 lang="en">Handlebar</h3></article>
+    <article><h3 class="format-title" lang="en">Walrus</h3>
+        <div class="format-text">
+            <p>Площа: до 120 м2</p>
+        <p>меню: розширене меню</p>
+        <p>Штат: 2 продавці, 2 пекарі, 2 офіціанти-різнороби</p>
+        <p>Посадкові місця Є</p>
+    </div>     
+    </article>
+        <article><h3 class="format-title" lang="en">Horseshoe</h3>
+    <div class="format-text">
+        <p>Площа: до 120 м2</p>
+        <p>меню: розширене меню</p>
+        <p>Штат: 2 продавці, 2 пекарі, 2 офіціанти-різнороби</p>
+        <p>Посадкові місця Є</p>
+    </div>
+    </article>
+    <article><h3 class="format-title" lang="en">Handlebar</h3>
+    <div class="format-text">
+        <p>Площа: до 120 м2</p>
+        <p>меню: розширене меню</p>
+        <p>Штат: 2 продавці, 2 пекарі, 2 офіціанти-різнороби</p>
+        <p>Посадкові місця Є</p>
+    </div>
+    </article>
 </section>
 <section id="contact_section"><h2>Приєднуйся до мережі пекарень</h2></section>
    </main>
@@ -78,10 +96,10 @@
     <a href="#"><img src="./images/logo2.jpg" alt="Логотип сучасна пекарня" />
     </a>    
     <ul>
-        <li><a href="#section1">Наши традиції</a></li>
-        <li><a href="#chefs_section">Шеф-кухарі</a></li>
-        <li><a href="#format_section">Наши формати</a></li>
-        <li><a href="#contact_section">Наши контакти</a></li>
+        <li><a class="link" href="#section1">Наши традиції</a></li>
+        <li><a class="link" href="#chefs_section">Шеф-кухарі</a></li>
+        <li><a class="link" href="#format_section">Наши формати</a></li>
+        <li><a class="link" href="#contact_section">Наши контакти</a></li>
     </ul>
 </nav>
 <address>
