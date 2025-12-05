@@ -11,11 +11,13 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="container">
+            <div class="header-container">
+        <nav class="header-nav">
             <a href="/">
                 <img src="./images/logo2.jpg" alt="Логотип сучаса пекарня" />
                 </a>
-            <ul>
+            <ul class="header-menu">
           <li><a class="link" href="#section1">Наши традиції</a></li>
             <li><a class="link" href="#chefs_section">Шеф-кухарі</a></li>
             <li><a class="link" href="#format_section">Наши формати</a></li>
@@ -23,25 +25,36 @@
 </ul>
         </nav>
         <button class="button" type="button">Замовити дзвінок</button>
+    </div>
+    </div>
     </header>
    <main>
-<section>
+<section class="hero-section">
+    <div class="container">
     <h1 class="hero-title"><span class="accent">Сучасна</span> пекарня</h1>
+    </div>
 </section>
-<section id="section1">   
-
+<section class="advantages-section"> 
+    <div class="container">
+    <h2 class="visualle-hidden">Наші переваги</h2> 
 <ul class="advantages-list">
     <li class="advantages-item">Великий попит на ринку</li>
     <li class="advantages-item">Доступні формати</li>
     <li class="advantages-item">Досвідченна команда</li>
 </ul>
+</div>
+</section>
+<section class="tradition-section section" id="tradition-section">
+    <div class="container">
 <h2 class="section-title">Новий формат традицій</h2>
 <p class="traditions-text">
     <span class="brand uppercase">shop bakery</span>
  -це пекарня, яка взяла найкращі традиції
 </p>
- <p>Ми працюємо як найвідоміші мережі <span class="brand">5 хвилин, и замовлення готове!</span></p>
- </section>
+ <p class="traditions-text">Ми працюємо як найвідоміші мережі <span class="brand">5 хвилин, и замовлення готове!</span></p>
+    </div>
+</section>
+
 <section id="chefs_section">
     <h2 class="section-title">
         Наші найкращі <span class="accent">шеф кухарі</span></h2>
@@ -89,7 +102,9 @@
     </div>
     </article>
 </section>
-<section id="contact_section"><h2>Приєднуйся до мережі пекарень</h2></section>
+<section id="contact_section"><h2>Приєднуйся до мережі пекарень</h2>
+<p>Заповни форму для звязку</p>
+</section>
    </main>
    <footer>
     <nav>
@@ -104,13 +119,13 @@
 </nav>
 <address>
     <ul>
-        <li><a href="tel:380960000"></a>+380960000</li>
-        <li><a href="mailto:shoybecker@ukr.net"></a>shoybecker@ukr.net</li>
-        <li><a href="#" target="#"></a>Київ вул.Січ.Стрільців 23
+        <li><a class="adress link" href="tel:380960000"></a>+380960000</li>
+        <li><a class="adress link" href="mailto:shoybecker@ukr.net"></a>shoybecker@ukr.net</li>
+        <li><a class="adress link" href="#" target="# _blank"></a>Київ вул.Січ.Стрільців 23
         </li>
         <li><a href="#">
             <!--facebook -->
-        </a></li>
+        </a> /li>
         <li><a href="#">
             <!--instagram -->
         </a></li>
